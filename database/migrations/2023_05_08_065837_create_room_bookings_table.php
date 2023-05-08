@@ -15,6 +15,8 @@ return new class extends Migration
             $table->id();
             $table->unsignedBigInteger("room_id")->nullable()->index();
             $table->unsignedBigInteger("guest_id")->nullable()->index();
+            $table->double("price", 15, 2)->default(0.00);
+            $table->tinyInteger("no_of_guest")->default(1);
             $table->dateTime("start_date");
             $table->dateTime("end_date");
             $table->timestamps();
