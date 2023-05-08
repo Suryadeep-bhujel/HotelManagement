@@ -1,4 +1,5 @@
 Task 
+Before working on code, create new branch by your name and start working on the task, once you complete the task , push to your  branch and send confirmation email to our team
 1. Create Room Model/migration/ controller 
 2. Add CRUD feature 
 3. Create api to
