@@ -4,5 +4,6 @@ Task
 3. Create api to
     a) check room availability of rooms 
     b) book room for guest 
-    c) send room booking notification to guest and admin
-4. Show room list with availability in admin dashboard
+4. Send room booking mail notification to guest and admin
+5. Show room list with availability in admin dashboard
+6. Add Cancel Booking Feature
